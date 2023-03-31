@@ -1,0 +1,16 @@
+@url = http://localhost
+@authToken = 123456
+
+###
+POST {{url}} HTTP/1.1
+Authorization: {{authToken}}
+Content-Type: application/json
+
+{
+    "edificio": "CC",
+    "lecturas": [
+        {"Aires": "87"},
+        {"Luces": "34"},
+        {"Proyectores": "15"}
+    ]
+}

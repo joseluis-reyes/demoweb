@@ -1,0 +1,15 @@
+@videocurso https://youtu.be/ltA-mIYyxhY
+@video @consolaApp https://youtu.be/mCogBfNIFvg
+
+Proyecto:
+	SpringBoot: 3.1.0 (M2)
+	Lang: Java
+	Group: com.mitocode
+	Java Version: 17
+
+NOTAS:
+	- Cambio de puerto en application.settings
+		server.port = 8080
+	- Inicializador de proyectos (oficial)
+		https://start.spring.io/
+	
